@@ -1,0 +1,20 @@
+
+version: 2
+
+models:
+    - name: RawIngestion_Transactions
+      description: "Ingest all the transactions from the 'OLTP' DB"
+      columns:
+          - name: user_id
+            description: "The User ID for Transactions"
+            tests:
+                - not_null
+
+    - name: RawIngestion_Users
+      description: "Users coming from the RAW data source"
+      columns:
+          - name: user_id
+            description: "User's UserID"
+            tests:
+                - unique
+                - not_null
