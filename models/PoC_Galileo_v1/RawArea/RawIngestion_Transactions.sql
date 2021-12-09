@@ -1,3 +1,5 @@
+{{ config(schema='RAW') }}
+
 Select
     USER_ID
     , TRANSACTION_ID

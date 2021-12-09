@@ -1,3 +1,5 @@
+{{ config(schema='STAGINGAREA') }}
+
 Select
     TX.USER_ID
     , USR.CUSTOMERNAME
