@@ -1,4 +1,4 @@
-{{ config(schema='RAW') }}
+{{ config(schema='DATALAKE') }}
 
 Select
     USER_ID
