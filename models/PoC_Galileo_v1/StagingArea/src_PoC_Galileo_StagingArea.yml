@@ -7,7 +7,3 @@ sources:
       - name: RAWINGESTION_TRANSACTIONS
       - name: RAWINGESTION_USERS
   
-  - name: STAGINGAREA
-    database: 'POC_GALILEO_V1'
-    tables:
-      - name: TBLCUSTOMERS

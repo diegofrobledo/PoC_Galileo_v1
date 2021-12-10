@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: DATALAKE
+    database: 'POC_GALILEO_V1'
+    tables:
+      - name: RAWINGESTION_TRANSACTIONS
+      - name: RAWINGESTION_USERS
+
+  - name: STAGINGAREA
+    database: 'POC_GALILEO_V1'
+    tables:
+      - name: STGVALIDTRANSACTIONS
+      - name: TBLCUSTOMERS
