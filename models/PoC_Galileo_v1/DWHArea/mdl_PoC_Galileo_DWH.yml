@@ -1,0 +1,16 @@
+version: 2
+
+models:
+    - name: dimGeography
+      columns:
+        - name: STATE
+          tests:
+            - not_null
+        - name: CITY
+          tests:
+            - not_null
+        - name: ZIPCODE
+          tests:
+            - not_null
+
+            

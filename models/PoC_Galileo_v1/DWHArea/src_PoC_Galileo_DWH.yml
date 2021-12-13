@@ -12,16 +12,3 @@ sources:
     tables:
       - name: STGVALIDTRANSACTIONS
       - name: TBLCUSTOMERS
-
-models:
-  - name: dimGeography
-    columns:
-      - name: STATE
-        test:
-          - not_null
-      - name: CITY
-        test:
-          - not_null
-      - name: ZIPCODE
-        test:
-          - not_null
