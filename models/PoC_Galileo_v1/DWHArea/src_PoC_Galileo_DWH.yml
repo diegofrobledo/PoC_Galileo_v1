@@ -10,5 +10,5 @@ sources:
   - name: STAGINGAREA
     database: 'POC_GALILEO_V1'
     tables:
-      - name: STGVALIDTRANSACTIONS
+      - name: STGVALIDUSERTRANSACTIONS
       - name: TBLCUSTOMERS
