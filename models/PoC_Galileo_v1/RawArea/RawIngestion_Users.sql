@@ -1,3 +1,5 @@
+{{ config(schema='DATALAKE') }}
+
 Select
     USER_ID
     , AGE_BUCKET
