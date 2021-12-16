@@ -12,3 +12,4 @@ sources:
     tables:
       - name: STGVALIDUSERTRANSACTIONS
       - name: TBLCUSTOMERS
+      - name: TBLDATE
